@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <form ng-submit="edit_document()">
+            <div class="form-group">
+                <label>Type Document Name and press Enter</label>
+                <input type="text" class="form-control" ng-model="doc_name" />
+            </div>
+            <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
+        </form>
+    </div>
+    <div ng-hide="hide_doc" class="col-md-12">
+        <div class="form-group">
+            <textarea ng-keyup="sendContent()" class="form-control" ng-model="doc_content" style="height: 300px"></textarea>
+        </div>
+    </div>
+</div>
