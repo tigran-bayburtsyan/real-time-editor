@@ -3,9 +3,7 @@
   "description": "Example tutorial for devclub.am",
   "author": "Tigran Bayburtsyan <tigran@flaxton.io>",
   "dependencies": {
-    "async": "0.9.0",
     "socket.io": "1.*",
-    "mongoose": "4.*",
     "express": "4.*",
     "body-parser": "*",
     "ejs": "2.3.*"
